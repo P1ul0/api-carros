@@ -3,7 +3,7 @@ const server = express();
 
 const port = process.env.PORT || 3000
 
-const cars = require("./src/data/server.json")
+const cars = require("./src/data/cars.json")
 
 server.get("/Cars",(req,res)=>{
     return res.json(cars)
