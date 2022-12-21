@@ -1,7 +1,6 @@
 {
   "name": "api_carros",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
@@ -12,5 +11,14 @@
   "dependencies": {
     "express": "^4.18.2",
     "nodemon": "^2.0.20"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/P1ul0/api-carros.git"
+  },
+  "bugs": {
+    "url": "https://github.com/P1ul0/api-carros/issues"
+  },
+  "homepage": "https://github.com/P1ul0/api-carros#readme",
+  "description": ""
 }
